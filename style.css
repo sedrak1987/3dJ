@@ -257,7 +257,7 @@ img {
   opacity: 0;
   padding: 10px 0;
   position: absolute;
-  right: 0;
+  right: -1px;
   top: 100%;
   transform: scaleY(0);
   transform-origin: center top 0;
@@ -265,6 +265,7 @@ img {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   z-index: -99;
+  width: 100px;
 }
 #top-menu > ul > li > ul > li {
   display: block;
@@ -286,7 +287,6 @@ img {
 /*----- 3.3 Header Area -----*/
 .header-area {
   background: #ebebeb none repeat scroll 0 0;
-  padding-top: 20px;
 }
 .log-link p {
   font-size: 12px;
@@ -3513,5 +3513,5 @@ height: 380px;
   transform: translate(-50%, -50%);
 }
 .skin-header-logo h3{
-  padding: 25px;
+  padding: 20px;
 }
