@@ -3448,3 +3448,12 @@ h4.heading {
   color: #E09E25;
   padding-left: 10px;
 }
+.timer:after{
+  content: '+';
+  font-size: 30px;
+}
+.testimonial-item h2 {
+  color: #fff;
+  text-align: center;
+
+}
