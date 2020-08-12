@@ -33,6 +33,7 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <link rel="stylesheet" href="css/BeerSlider.css">
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -651,6 +652,21 @@
     </div>
 </div><!--End Footer Area-->
 
+
+<div  class="beer-slider" data-beer-label="before">
+    <img src="img/solidscape/3d-model-before.jpg" alt="Original - Man holding beer">
+    <div class="beer-reveal" data-beer-label="after">
+        <img src="img/solidscape/3d-model-after.jpg" alt="Processed - Man holding beer">
+    </div>
+</div>
+<div  class="beer-slider" data-beer-label="before">
+    <img src="img/solidscape/3d-printing-before.jpg" alt="Original - Man holding beer">
+    <div class="beer-reveal" data-beer-label="after">
+        <img src="img/solidscape/3d-printing-after.jpg" alt="Processed - Man holding beer">
+    </div>
+</div>
+
+
 <!-- jQuery 2.1.4 -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!-- Bootstrap JS -->
@@ -679,6 +695,8 @@
 <script type="text/javascript" src="js/wow.min.js"></script>
 <!--Google Map APi-->
 <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script src="js/BeerSlider.js"></script>
 <script>
     function initialize() {
         var mapOptions = {
@@ -699,6 +717,18 @@
 </script>
 <script>
     new WOW().init();
+</script>
+
+<script>
+    $.fn.BeerSlider = function ( options ) {
+        options = options || {};
+        return this.each(function() {
+            new BeerSlider(this, options);
+        });
+    };
+    $('.beer-slider').each( (function( index, el ) {
+        $(el).BeerSlider({start: $(el).data('beer-start')})
+    }));
 </script>
 <!-- Main JS -->
 <script type="text/javascript" src="js/main.js"></script>

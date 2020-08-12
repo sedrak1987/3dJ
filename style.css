@@ -257,15 +257,14 @@ img {
   opacity: 0;
   padding: 10px 0;
   position: absolute;
-  right: -1px;
-  text-align: right;
+  right: 0;
   top: 100%;
   transform: scaleY(0);
   transform-origin: center top 0;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 120%;
+
   z-index: -99;
 }
 #top-menu > ul > li > ul > li {
@@ -276,7 +275,7 @@ img {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  padding: 5px 10px;
+  padding: 5px 7px;
 }
 #top-menu > ul > li > ul li a:hover{color:#e09e25;}
 
@@ -3513,4 +3512,65 @@ height: 380px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+.skin-block-body-left{
+  width: 47.5%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+.skin-block-body-logo{
+  margin-top: 6px;
+  margin-bottom: 6px;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-image: url(/cms/images/solidscape.png);*/
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#skin-block-body-model{
+  background-color: white;
+  height: 382px;
+  width: auto;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  margin: 0px 0;
+}
+.skin-block-body-model{
+  background-color: white;
+  height: 382px;
+  width: auto;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  margin: 0px 0;
+}
+
+.beer-slider img{
+  /*width: 500px;*/
+  height: 500px !important;
 }
