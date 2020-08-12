@@ -91,10 +91,10 @@ img {
   clear: both;
 }
 .section {
-  padding: 80px 0;
+  padding: 30px 0;
 }
 .page {
-  padding: 80px 0 0;
+  padding: 40px 0 0;
 }
 .section-title {
   text-align: center;
@@ -1390,10 +1390,13 @@ img {
 }
 .footer-about .image {
   display: inline-block;
-  text-align: right;
+  text-align: center;
   margin-bottom: 20px;
 }
-.footer-about .image img {}
+.footer-about .image img {
+  width: 60px;
+  padding-bottom: 14px;
+}
 .footer-about .image h3 {
   color: #cacaca;
   font-size: 13px;
@@ -1407,6 +1410,7 @@ img {
 .footer-contact{}
 .single-contact {
   margin-bottom: 20px;
+  display: flex;
 }
 .single-contact:last-child {
   margin-bottom: 0;
@@ -1414,6 +1418,7 @@ img {
 .single-contact .icon {
   float: left;
   margin-right: 14px;
+  align-self: center;
 }
 .single-contact .icon i {
   border: 1px solid #e09e25;
@@ -1484,8 +1489,8 @@ img {
   color: #e09e25;
 }
 .footer-newslater {
-  margin-top: 30px;
-  text-align: right;
+  margin-top: 125px;
+  text-align: center;
 }
 .footer-newslater .wrap {
   display: inline-block;
@@ -1498,9 +1503,9 @@ img {
   margin: 8px 15px 0 0;
 }
 .footer-newslater form {
-  float: right;
+  /*float: right;*/
   overflow: hidden;
-  width: 318px;
+  width: 333px;
 }
 .footer-newslater form input[type="email"] {
   background: transparent none repeat scroll 0 0;
@@ -1516,8 +1521,8 @@ img {
   background: #555555 none repeat scroll 0 0;
   border: medium none;
   color: #fff;
-  font-size: 14px;
-  font-weight: 700;
+  /*font-size: 14px;*/
+  /*font-weight: 700;*/
   padding: 6px 10px;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
