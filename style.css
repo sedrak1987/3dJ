@@ -3514,3 +3514,6 @@ height: 380px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.skin-header-logo h3{
+  padding: 25px;
+}
