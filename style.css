@@ -258,15 +258,14 @@ img {
   padding: 10px 0;
   position: absolute;
   right: -1px;
-  text-align: right;
   top: 100%;
   transform: scaleY(0);
   transform-origin: center top 0;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 120%;
   z-index: -99;
+  width: 100px;
 }
 #top-menu > ul > li > ul > li {
   display: block;
@@ -276,7 +275,7 @@ img {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  padding: 5px 10px;
+  padding: 5px 7px;
 }
 #top-menu > ul > li > ul li a:hover{color:#e09e25;}
 
@@ -288,7 +287,6 @@ img {
 /*----- 3.3 Header Area -----*/
 .header-area {
   background: #ebebeb none repeat scroll 0 0;
-  padding-top: 20px;
 }
 .log-link p {
   font-size: 12px;
@@ -3515,21 +3513,36 @@ height: 380px;
   transform: translate(-50%, -50%);
 }
 .skin-header-logo h3{
-  padding: 25px;
-}
-.services .icon-box {
-  height: 360px;
-  position: relative;
   padding: 20px;
-  margin-top: 20px;
-  text-align: center;
-  line-height: 1.8;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
+}
+
+.port-wrap img {
+  height: 200px;
+}
+.services .icon-box{
+  height: 380px;
   border-radius: 8px;
-  z-index: 1;
+  overflow: hidden;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  position: relative;
+  top: 0;
+  background-color: white;
+  margin-bottom: 4em;
+  margin-top: 4em;
+  text-align: center;
+  padding: 50px 25px;
+  color: black;
+  line-height: 1.8;
+  z-index: 1;}
+.services .icon-box .icon {
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  top: -50px;
 }
 .services .icon {
   width: 80px;
@@ -3544,10 +3557,10 @@ height: 380px;
 .services .icon-box:hover .icon {
   background: #fff;
 }
-.services .icon-box:hover {
+.services .box:hover {
   background: orange;
 }
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
+.services .box:hover .title a, .services .icon-box:hover .description {
   color: #fff;
 }
 
@@ -3570,14 +3583,4 @@ height: 380px;
   border-radius: 50px;
   transition: all 0.3s;
   z-index: -1;
-}
-.services .unit-4 .unit-4-icon .icon-wrap {
-  width: 80px;
-  height: 80px;
-  position: relative;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: orange;
-  -webkit-box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
-  box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
 }
