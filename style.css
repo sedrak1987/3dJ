@@ -3515,3 +3515,7 @@ height: 380px;
 .skin-header-logo h3{
   padding: 20px;
 }
+
+.port-wrap img {
+  height: 200px;
+}
