@@ -3085,7 +3085,7 @@ h4.heading {
   border: 0 none;
   border-radius: 0;
   box-shadow: none;
-  margin-bottom: 24px;
+  margin-bottom: 7px;
   margin-top: 0 !important;
 }
 .panel-group .panel:last-child {
@@ -3612,3 +3612,14 @@ height: 380px;
   top: 0 !important;
   background: none !important ;
 }
+.panel-title a i{
+  float: right;
+}
+.block-title h2::before {
+  font-family: FontAwesome;
+  content: "\f0a4";
+  padding-right: 8px;
+  font-size: 20px;
+  position: relative;
+  font-weight: normal;
+  top: -1px;
