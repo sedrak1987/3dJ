@@ -3085,7 +3085,7 @@ h4.heading {
   border: 0 none;
   border-radius: 0;
   box-shadow: none;
-  margin-bottom: 7px;
+  margin-bottom: 24px;
   margin-top: 0 !important;
 }
 .panel-group .panel:last-child {
@@ -3623,3 +3623,15 @@ height: 380px;
   position: relative;
   font-weight: normal;
   top: -1px;
+}
+#hero h3{
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+#hero p{
+  color: #484848;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
