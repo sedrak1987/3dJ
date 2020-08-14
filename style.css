@@ -3612,3 +3612,14 @@ height: 380px;
   top: 0 !important;
   background: none !important ;
 }
+#hero h3{
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+#hero p{
+  color: #484848;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
