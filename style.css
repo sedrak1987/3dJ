@@ -3532,9 +3532,13 @@ height: 380px;
 .services .service-item:hover .icon {
   background: #fff;
 }
+.services .service-item:hover .icon i {
+ color:orange;
+}
 .services .icon-box:hover {
   background: orange;
 }
+
 .services .icon-box:hover .title a, .services .icon-box:hover .description {
   color: #fff;
 }
@@ -3558,6 +3562,16 @@ height: 380px;
   border-radius: 50px;
   transition: all 0.3s;
   z-index: -1;
+}
+.services .icon i {
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
