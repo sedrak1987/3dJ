@@ -3642,10 +3642,14 @@ height: 380px;
 .model-3D{
   margin-bottom: 55px;
   }
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .skin-header-logo h3 {
-    font-size: 12px;
+    font-size: 13px;
+    padding: 10px;
+  }
+  .skin-header-logo img {
+    width: 70px;
+    height: 70px;
   }
 
 }
