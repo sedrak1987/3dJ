@@ -3085,7 +3085,7 @@ h4.heading {
   border: 0 none;
   border-radius: 0;
   box-shadow: none;
-  margin-bottom: 24px;
+  margin-bottom: 7px;
   margin-top: 0 !important;
 }
 .panel-group .panel:last-child {
@@ -3099,8 +3099,8 @@ h4.heading {
   padding: 0;
 }
 .panel-heading a, .panel-heading a.collapsed {
-  background: #fff none repeat scroll 0 0;
-  color: #343434;
+  background: #e09e25 none repeat scroll 0 0;
+  color: #fff;
   display: block;
   font-size: 14px;
   font-weight: 700;
@@ -3112,8 +3112,8 @@ h4.heading {
   color: #fff;
 }
 .panel-heading a.collapsed {
-  background: #fff none repeat scroll 0 0;
-  color: #343434;
+  background: #e09e25 none repeat scroll 0 0;
+  color: #fff;
 }
 .panel-heading a.active span {
   background: #fff none repeat scroll 0 0;
@@ -3635,3 +3635,10 @@ height: 380px;
   margin-bottom: 50px;
   line-height: 1.8;
 }
+.modelings-3D img{
+  width: 500px;
+  height: 280px;
+}
+.model-3D{
+  padding-bottom: 32px;
+  }
