@@ -3642,3 +3642,10 @@ height: 380px;
 .model-3D{
   margin-bottom: 55px;
   }
+
+@media screen and (max-width: 576px) {
+  .skin-header-logo h3 {
+    font-size: 12px;
+  }
+
+}
