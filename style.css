@@ -3641,7 +3641,17 @@ height: 380px;
 }
 .model-3D{
   margin-bottom: 55px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-center{
+  align-self: center;
+}
+
+.modelings-3D-img{
+  margin: 0 auto;
+}
 @media screen and (max-width: 768px) {
   .skin-header-logo h3 {
     font-size: 13px;
