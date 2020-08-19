@@ -96,6 +96,7 @@ img {
 .page {
   padding: 40px 0 0;
 }
+
 .section-title {
   text-align: center;
   margin-bottom: 50px;
@@ -307,7 +308,7 @@ img {
   text-decoration: none;
   text-align: right;
 }
-.logo a img{}
+.logo {margin-bottom: 15px;}
 .logo a h4 {
   color: #414141;
   font-size: 14px;
