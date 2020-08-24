@@ -57,6 +57,7 @@ body {
   background: #ebebeb none repeat scroll 0 0;
   color: #3e3f3f;
   font-family: "Raleway",sans-serif;
+  overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6, p {
   margin:0;
@@ -1092,7 +1093,6 @@ img {
 }
 .magic-area .image img {
   width: 100%;
-  height: 400px;
 }
 .magic-area .content {
   background: #e09e25 none repeat scroll 0 0;
