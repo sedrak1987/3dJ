@@ -20,7 +20,8 @@ $(document).ready(function($){
 	});
 	
 	/*Owl Carousel for Weekly Featured Products*/
-	$(".feature-pro-slider, .related-pro-slider").owlCarousel({
+	var owlFeatureProSlider = $(".feature-pro-slider");
+	owlFeatureProSlider.owlCarousel({
 		loop: true,
 		nav: true,
 		margin: 30,
@@ -36,8 +37,14 @@ $(document).ready(function($){
 			1170:{items:4,},
 		}
 	});
+	owlFeatureProSlider.on('changed.owl.carousel', function(event) {
+		$('.beer-slider').each((function (index, el) {
+			$(el).BeerSlider({start: $(el).data('beer-start')})
+		}));
+	});
 	/*Owl Carousel for Weekly Featured Products*/
-	$(".tab-pro-slider").owlCarousel({
+	var owlTabProSlider = $(".tab-pro-slider");
+	owlTabProSlider.owlCarousel({
 		loop: true,
 		nav: true,
 		margin: 30,
@@ -51,33 +58,12 @@ $(document).ready(function($){
 			1170:{items:4,},
 		}
 	});
-	/*Owl Carousel for Weekly Featured Products*/
-	$(".tab-pro-slider-2").owlCarousel({
-		loop: true,
-		nav: true,
-		margin: 30,
-		dots: false,
-		navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-		responsive:{
-			0:{items:1,},
-			480:{items:2,},
-			750:{items:3,},
-		}
-	});
-	$(".trendy-product-slider").owlCarousel({
-		loop: true,
-		nav: false,
-		margin: 20,
-		dots: false,
-		navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-		responsive:{
-			0:{items:2,},
-			480:{items:2,},
-			750:{items:4,},
-			950:{items:2,},
-			1170:{items:2,},
-		}
-	});	
+
+// Listen to owl events:
+	owlTabProSlider.on('changed.owl.carousel', function(event) {
+		$(".tab-pro-slider .product-img-hover img").elevateZoom();
+	})
+
 	/*Owl Carousel for blog*/
 	$(".blog-slider").owlCarousel({
 		loop: true,
