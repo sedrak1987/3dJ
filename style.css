@@ -1049,9 +1049,9 @@ img {
 }
 /*----- 3.9 Magic Area -----*/
 .magic-area {
-  display: flex;
-  flex-wrap: wrap;
-  /*background: #e09e25 none repeat scroll 0 0;*/
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  background: #e09e25 none repeat scroll 0 0;
 }
 .magic-area .image {
   padding: 0;
@@ -3644,8 +3644,8 @@ height: 380px;
   height: 280px;
 }
 .model-3D{
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
 }
 
 .justify-content-center{
