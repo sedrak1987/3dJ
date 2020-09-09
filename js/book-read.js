@@ -142,6 +142,8 @@ function reAssignPageNumbers() {
 	$(".book > div")[5].classList.add("six");
 	$(".book > div")[6].classList.add("seven");
 	$(".book > div")[7].classList.add("eight");
+	// $(".book > div")[8].classList.add("nine");
+	// $(".book > div")[9].classList.add("ten");
 }
 
 window.initializeWebcamSwiper();
