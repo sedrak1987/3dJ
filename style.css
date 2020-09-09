@@ -1096,29 +1096,29 @@ img {
 .magic-area .image img {
   width: 100%;
 }
-.magic-area .content {
+.magic-area .magic-content {
   background: #e09e25 none repeat scroll 0 0;
   padding: 30px;
 }
-.magic-area .content h2 {
+.magic-area .magic-content h2 {
   color: #fff;
   font-size: 40px;
   font-weight: 300;
   margin-bottom: 5px;
 }
-.magic-area .content h3 {
+.magic-area .magic-content h3 {
   color: #fff;
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 10px;
 }
-.magic-area .content p {
+.magic-area .magic-content p {
   color: #fff;
   font-size: 19px;
   font-weight: 300;
   margin-bottom: 34px;
 }
-.magic-area .content a {
+.magic-area .magic-content a {
   background: #fff none repeat scroll 0 0;
   color: #e09e25;
   display: inline-block;
@@ -1128,7 +1128,7 @@ img {
   padding: 13px 15px;
   text-transform: uppercase;
 }
-.magic-area .content a:hover {
+.magic-area .magic-content a:hover {
   background: rgba(0,0,0,0.2);
   color: #fff;
 }
